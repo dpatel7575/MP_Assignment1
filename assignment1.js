@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const BurgerOrder = require("./assignment1Burger");
 
-// Create a new express application instance
+//adding code for Mobile App
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
