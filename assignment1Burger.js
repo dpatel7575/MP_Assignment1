@@ -41,7 +41,7 @@ module.exports = class BurgerOrder extends Order{
         switch(this.stateCur){
             case OrderState.WELCOMING:
                 this.stateCur = OrderState.TYPE;
-                aReturn.push("Welcome to Dharti's food.");
+                aReturn.push("Welcome to Dharti-Shreya's food-lab.");
                 aReturn.push("What type of burger would you like - Veg / Non-Veg?");
                 break;            
                 
